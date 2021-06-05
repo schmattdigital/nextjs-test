@@ -19,9 +19,9 @@ export default function FirstPost(props) {
   return (
     <Layout>
       <Head>
-        <title>First Post</title>
+        <title>First Post for {props.name}</title>
       </Head>
-      <h1>First Post</h1>
+      <h1>First Post for {props.name}</h1>
       <h2>
         <Link href="/">
           <a>Back to home</a>
